@@ -1,0 +1,20 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>库存管理系统</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>库存管理系统</h1>
+    <input type="text" id="search-bar" placeholder="搜索商品..." oninput="searchProduct(document.getElementById('search-bar').value)">
+    <ul id="product-list"></ul>
+    <button onclick="displayFeaturedProducts()">显示特色商品</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
